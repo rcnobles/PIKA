@@ -17,7 +17,7 @@ Installation instructions:
 https://tesseract-ocr.github.io/tessdoc/Compiling-%E2%80%93-GitInstallation.html
 
 ## What process/methodology will you use?
-Undecided
+We are using the agile method of organizing and keeping track of the teams progress. Besides the once a week meetings on the thursday's, we plan on doing additional scrum meetings to help each other out and keep a more consitent track of the team's progress as a whole.
 
 ## What is the schedule for the project and it's milestones?
-Undecided
+Besides having the iteration dates as milestones, we want to assign each person 1 task to complete each week, and when the time comes for our main scrum meetings, have completed that assigned task.
