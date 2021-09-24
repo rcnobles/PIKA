@@ -3,7 +3,7 @@
 ## Collaborators
 
 Terasak Damabhorn
-
+Valerie Martinez
 Rodney Nobles
 
 Hamid Suha
