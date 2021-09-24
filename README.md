@@ -3,10 +3,12 @@
 ## Collaborators
 
 Terasak Damabhorn
-Valerie Martinez
+
 Rodney Nobles
 
 Hamid Suha
+
+Kyle Woo
 
 ## What is the project (non-technical description)?
 The aim of this project is to create a web application for users to monitor their dietary needs and prevent the consumption of any food that triggers the user's allergy. We do this by collecting data about the user's diet, and their allergy, then using text recognition, scan and monitor the ingredients in their foods to make recommendations on their next grocery or food consumption. (based on the allergy and safety of the food).
