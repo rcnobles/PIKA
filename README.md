@@ -1,6 +1,6 @@
 # PIKA
 
-## Collaborators
+## Collaborators:
 
 Terasak Damabhorn  
 
