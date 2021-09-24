@@ -2,7 +2,9 @@
 
 ## Collaborators
 
-Terasak Damabhorn
+Terasak Damabhorn  
+
+Valerie Martinez
 
 Rodney Nobles
 
