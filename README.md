@@ -2,6 +2,8 @@
 
 ## Collaborators
 
+Terasak Damabhorn
+
 Rodney Nobles
 
 Hamid Suha
