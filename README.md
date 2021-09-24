@@ -10,6 +10,8 @@ Rodney Nobles
 
 Hamid Suha
 
+Thomas Tran
+
 Kyle Woo
 
 ## What is the project (non-technical description)?
