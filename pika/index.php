@@ -1,25 +1,32 @@
-<html>
-<head>
-</head>
-<body>
-<div align="center">
-<h1>Pika</h1>
-
-<form action="pythonweb.py" method="post" >
-<b>Enter ID:</b>
-<input type="number" placeholder="Enter User ID:" name="user_id"><br><br>
-<b>Enter First Name:</b>
-<input type="text" placeholder="Enter First Name:" name="first_name"><br><br>
-<b>Enter Last Name:</b>
-<input type="text" placeholder="Enter Last Name:" name="last_name"><br><br>
-<b>Enter Allergy:</b>
-<input type="text" placeholder="Enter Allergy:" name="allergies_text"><br><br>
-<b>Enter Allergy Count:</b>
-<input type="number" placeholder="Enter Allergy Count:" name="allergy_count"><br><br>
-<b>Enter Emergeny Number:</b>
-<input type="number" placeholder="Enter Emergency Number:" name="emergency_contact_id"><br><br>
-<input type="submit" value="SUBMIT"><br>
-</form>
-</div>
-</body>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="center">
+      <h1>Login</h1>
+      <form action="pythonweb.py" method="POST">
+        <div class="txt_field">
+          <input type="text" required>
+          <span></span>
+          <label>Username</label>
+        </div>
+        <div class="txt_field">
+          <input type="password" required>
+          <span></span>
+          <label>Password</label>
+        </div>
+        <div class="pass">Forgot Password?</div>
+        <input type="submit" value="Login">
+        <div class="signup_link">
+          Not a member? <a href="#">Signup</a>
+        </div>
+      </form>
+    </div>
+    <div class="info">
+      This text is like a lable that gives some info. Idk it was in the mockup.
+    </div>
+   
+  </body>
 </html>
