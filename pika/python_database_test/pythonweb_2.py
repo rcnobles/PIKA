@@ -17,7 +17,7 @@ try:
                                          password='')
 
 
-    #adding data to table
+    #adding data to table as an example, this should be a test case of inserting infrmation into the table
     mycurser = db.cursor()
     mycurser.execute("INSERT INTO userAccInfoTest (first_name, last_name, userAccName, userAccPassword, userEmail) VALUES (%s, %s, %s, %s, %s)", ("user1", "firstUser", "testUser1", "1234", "user1@gmail.com"))
     db.commit()

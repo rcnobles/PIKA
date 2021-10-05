@@ -1,5 +1,5 @@
 # This python file should create a database called 'testUserAcc' with a table called 'userAccInfoTest'
-# userID = automatically incremented and is primary key of table
+# userID = automatically incremented by the system and is primary key of table
 # first_name = user first name
 # last_name = user last name
 # userAccName = username the user specifies in account creation
