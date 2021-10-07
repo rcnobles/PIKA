@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -8,7 +6,7 @@
   <body>
     <div class="center">
       <h1>Login</h1>
-      <form action="pythonweb.py" method="post">
+      <form method="post">      <!--Removed pythonweb.py action-->
         <div class="txt_field">
           <input type="text" required>
           <span></span>
@@ -20,7 +18,7 @@
           <label>Password</label>
         </div>
         <div class="pass">Forgot Password?</div>
-        <input type="submit" value="Login">
+        <button class="btn"> <a href="frontpage.php">Login</a> </button>
         <div class="signup_link">
           Not a member? <a href="register.php">Signup</a>
         </div>

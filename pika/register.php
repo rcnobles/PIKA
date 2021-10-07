@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -29,7 +27,7 @@
           <span></span>
           <label>Confirm Password</label>
         </div>
-        <input type="submit" value="Sign Up">
+        <button class="btn"> <a href="frontpage.php">Sign Up</a> </button>
         <div class="signup_link">
           Have an account? <a href="index.php">Login Here</a>
         </div>
