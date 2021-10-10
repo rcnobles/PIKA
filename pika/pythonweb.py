@@ -25,7 +25,27 @@ cur=con.cursor()
 cur.execute("insert into user values(%d,%s,%s,%s,%d,%d)",(id,firstname,lastname,allergy,allergycount,emernum))
 con.commit()
 
+#mySql_Create_userEmergencyCont_Table = """CREATE TABLE emergencyContactsTest ( 
+    #                         emergencyID int NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    #                         emer_first_name varchar(50) NOT NULL,
+    #                         emer_last_name varchar(50) NOT NULL,
+    #                         emer_phone varchar(25) NOT NULL) """
+
+    #mySql_Create_userInfo_Table = """CREATE TABLE userInfoTest ( 
+    #                        userProfileID int NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    #                        fname varchar(50) FOREIGN KEY REFERENCES userAccInfoTest(first_name),
+    #                        lname varchar(50) FOREIGN KEY REFERENCES userAccInfoTest(last_name),
+    #                        emergencyContactID int FOREIGN KEY REFERENCES emergencyContactsTest(emergencyID),
+    #                        allergyList varchar NOT NULL,
+    #                        allergyCount int NOT NULL) """
+
+    #should be added here for creating databases
+
 cur.close()
 con.close()
 print("<h3>record inserted successfully</h3>")
 print("<a href='http://localhost/pika/index.php'>click here to go back</a>")
+
+
+
+# add here the new connections and responses to whether the database has been accessed correctly and of the data was stores correctly
