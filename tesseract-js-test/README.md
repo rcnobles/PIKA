@@ -2,7 +2,7 @@
 
 Barebones webpage that (hopefully) has working tesseract.js
 
-This .js version was pulled from https://github.com/bensonruan/Tesseract-OCR and stripped down to just a basic webpage, so this copy missing some HTML elements
+This .js version is based off of https://github.com/naptha/tesseract.js converted to run on a basic webpage
 
 # How to install
 
