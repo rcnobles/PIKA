@@ -6,6 +6,7 @@
   <body>
   <ul> <!-- Adds the navigation bar. Feel free to add more tabs as you see fit! -->
       <li><a href="#home">Home</a></li>
+      <li><a href="about.html">About</a></li>
       <li><a href="#services">Services</a></li>
       <li><a href="#research">Research</a></li>
       <li><a href="contact.html">Contact</a></li>
