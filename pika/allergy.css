@@ -7,15 +7,15 @@
 }
 body{
   margin: 0;
-  padding: 0;
+  padding: 70px;
   background: #f8f9e3;
   height: 100vh;
   overflow: hidden;
 }
-.center{
+.container{
   position: absolute;
   top: 50%;
-  right: 50%;
+  right: 20%;
   transform: translate(-50%, -50%);
   width: 400px;
   background: white;
@@ -23,11 +23,11 @@ body{
   box-shadow: 10px 10px 15px rgba(0,0,0,0.05);
   padding-bottom: 50px;
 }
-.center h1{
+.container h1{
   text-align: center;
-  padding: 80px 0 10px;
+  padding: 40px 0 10px;
 }
-.center form{
+.panel-body form{
   padding: 0 40px;
   box-sizing: border-box;
 }
@@ -125,7 +125,7 @@ form .txt_field{
   text-decoration: underline;
 }
 input[type="submit"]{
-  width: 100%;
+  width: 40%;
   height: 50px;
   border: 1px solid;
   background: #e4e3f9;
@@ -154,7 +154,7 @@ input[type="submit"]{
     content: "";
   }
   .btn{
-    width: 100%;
+    width: 80%;
     height: 50px;
     border: 1px solid;
     background: #2691d9;

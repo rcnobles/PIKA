@@ -34,7 +34,7 @@
       </form>
     </div>
     <div class="info">
-      This text is like a lable that gives some info. Idk it was in the mockup.
+      Welcome to Pika!
     </div>
    
   </body>

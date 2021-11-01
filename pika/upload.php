@@ -1,4 +1,8 @@
 <html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="upload.css">
+      </head>
 <body>
 
 <?php
@@ -11,7 +15,20 @@ $location = "upload/".$filename;
 
 /* Save the uploaded file to the local filesystem */
 if( move_uploaded_file($_FILES['file']['tmp_name'], $location)){
-       echo '<p>File uploaded successfully</p>';
+       echo '<div><p>INGREDIENTS: SUGAR, ENRICHED BLEACHED FLOUR (WHEAT <br>
+
+        FLOUR, NIACIN, REDUCED IRON, THIAMIN MONONITRATE,
+        RIBOFLAVIN, FOLIC ACID), <br> CHOCOLATE CHIPS
+        (SUGAR, CHOCOLATE LIQUOR, COCOA BUTTER, SOY LECITHIN<br>
+        
+        [EMULSIFIER], VANILLA), COCOA (PROCESSED WITH ALKAL)),
+        CANOLA OR SOYBEAN OIL, <br>BITTERSWEET CHOCOLATE CHIPS
+        (CHOCOLATE LIQUOR, SUGAR, COCOA BUTTER, MILK FAT,
+        <br>SOY LECITHIN [EMULSIFIER], VANILLA), MILK CHOCOLATE
+        CHIPS (SUGAR, WHOLE MILK POWDER, <br>CHOCOLATE LIQUOR,
+        COCOA BUTTER, SOY LECITHIN [EMULSIFIER], VANILLA), SALT,<br>
+        
+        ARTIFICIAL FLAVOR, SODIUM BICARBONATE.</p></div>';
 
 }else{
        echo '<b>Error uploading file.</b>';

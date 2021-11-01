@@ -4,13 +4,6 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-  <ul> <!-- Adds the navigation bar. Feel free to add more tabs as you see fit! -->
-      <li><a href="#home">Home</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#research">Research</a></li>
-      <li><a href="contact.html">Contact</a></li>
-      <li><a class ="active" herf="index.php">Sign In</a></li>
-    </ul>
     <div class="center">
       <h1>Login</h1>
       <form method="post">      <!--Removed pythonweb.py action-->
@@ -32,7 +25,7 @@
       </form>
     </div>
     <div class="info">
-      This text is like a lable that gives some info. Idk it was in the mockup.
+      Welcome to Pika!
     </div>
    
   </body>
