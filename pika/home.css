@@ -10,7 +10,7 @@ body{
   padding: 0;
   background: #f8f9e3;
   height: 100vh;
-  overflow: hidden;
+  overflow: auto;
 }
 .center{
   position: absolute;
