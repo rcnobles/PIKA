@@ -1,10 +1,8 @@
 <?php
 	$userName = $_POST['userName'];
-	$lastName = $_POST['lastName'];
-	$gender = $_POST['gender'];
 	$email = $_POST['email'];
 	$password = $_POST['password'];
-	$number = $_POST['number'];
+	$confirmPass = $_POST['confirmPass'];
 
 	// Database connection
 	$conn = new mysqli('localhost','root','','allergyweb');
@@ -12,12 +10,13 @@
 		echo "$conn->connect_error";
 		die("Connection Failed : ". $conn->connect_error);
 	} else {
-		$stmt = $conn->prepare("insert into registration(firstName, lastName, gender, email, password, number) values(?, ?, ?, ?, ?, ?)");
-		$stmt->bind_param("sssssi", $firstName, $lastName, $gender, $email, $password, $number);
+		$stmt = $conn->prepare("insert into registration(userName, email, password, confirmPass) values(?, ?, ?, ?)");
+		$stmt->bind_param("ssss", $userName, $email, $password, $confirmPass);
 		$execval = $stmt->execute();
 		echo $execval;
-		echo "Registration successfully...";
 		$stmt->close();
 		$conn->close();
 	}
+	header("Location: http://localhost/pika/frontpage.php");
+	exit();
 ?>

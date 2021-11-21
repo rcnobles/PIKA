@@ -6,19 +6,19 @@
   <body>
     <div class="center">
       <h1>Login</h1>
-      <form method="post">      <!--Removed pythonweb.py action-->
+      <form action="connectIndex.php" method="post">
         <div class="txt_field">
-          <input type="text" required>
+          <input type="text" required class="form-control" id="username" name="username">
           <span></span>
-          <label>Username</label>
+          <label for="username">Username</label>
         </div>
         <div class="txt_field">
-          <input type="password" required>
+          <input type="password" required class="form-control" id="password" name="password">
           <span></span>
-          <label>Password</label>
+          <label for="password">Password</label>
         </div>
         <div class="pass">Forgot Password?</div>
-        <button class="btn"> <a href="frontpage.php">Login</a> </button>
+        <button class="btn">Login</a> </button>
         <div class="signup_link">
           Not a member? <a href="register.php">Signup</a>
         </div>
