@@ -1,0 +1,42 @@
+[
+{"type":"header","version":"5.0.4","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"allergyweb"},
+{"type":"table","name":"allergy","database":"allergyweb","data":
+[
+{"id":"1","inAllergy":"gluten","product":"cereal","symptoms":"swelling"},
+{"id":"2","inAllergy":"nuts","product":"granola bars","symptoms":"swelling"},
+{"id":"3","inAllergy":"gluten","product":"cereal","symptoms":"o"},
+{"id":"4","inAllergy":"gluten","product":"granola bars","symptoms":"swelling"},
+{"id":"5","inAllergy":"gluten","product":"cereal","symptoms":"o"},
+{"id":"6","inAllergy":"dairy","product":"yogurt","symptoms":"swelling"},
+{"id":"7","inAllergy":"pickles","product":"relish","symptoms":"rash"},
+{"id":"8","inAllergy":"ranch","product":"salad","symptoms":"rash"}
+]
+}
+,{"type":"table","name":"registration","database":"allergyweb","data":
+[
+{"id":"1","userName":"test","email":"test@gmail.com","password":"1234","confirmPass":"1234"},
+{"id":"2","userName":"test2","email":"test2@gmail.com","password":"4321","confirmPass":"4321"},
+{"id":"3","userName":"cpaggitt0","email":"abriars0@elpais.com","password":"7bzafO","confirmPass":"7bzafO"},
+{"id":"4","userName":"vvanderhoog1","email":"hmacdunleavy1@hubpages.com","password":"1ViXYGNe","confirmPass":"1ViXYGNe"},
+{"id":"5","userName":"ahulkes2","email":"agelland2@amazonaws.com","password":"HOZEDCjeTJc","confirmPass":"HOZEDCjeTJc"},
+{"id":"6","userName":"acottage3","email":"gwitcherley3@jiathis.com","password":"9xFv8ht","confirmPass":"9xFv8ht"},
+{"id":"7","userName":"srobotham4","email":"bperillo4@photobucket.com","password":"1ZlZHrKHWwTm","confirmPass":"1ZlZHrKHWwTm"},
+{"id":"8","userName":"bcuel5","email":"kdyet5@ucoz.ru","password":"XALRapCs","confirmPass":"XALRapCs"},
+{"id":"10","userName":"mtotaro6","email":"llevey6@sfgate.com","password":"yAs3Zq6FbpUy","confirmPass":"yAs3Zq6FbpUy"},
+{"id":"11","userName":"demo","email":"gggr@test.com","password":"fe3F2df3","confirmPass":"fe3F2df3"}
+]
+}
+,{"type":"table","name":"user","database":"allergyweb","data":
+[
+{"id":"1","username":"test","password":"1234"},
+{"id":"2","username":"test2","password":"4321"},
+{"id":"3","username":"cpaggitt0","password":"7bzafO"},
+{"id":"4","username":"vvanderhoog1","password":"1ViXYGNe"},
+{"id":"5","username":"ahulkes2","password":"HOZEDCjeTJc"},
+{"id":"6","username":"acottage3","password":"9xFv8ht"},
+{"id":"7","username":"srobotham4","password":"1ZlZHrKHWwTm"},
+{"id":"8","username":"test3","password":"1234567"}
+]
+}
+]
